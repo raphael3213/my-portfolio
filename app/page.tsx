@@ -8,10 +8,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative min-w-[400px]">
-      <section>
-        <Navbar />
-      </section>
+    <main className="relative ">
+      <Navbar />
       <section>
         <Introduction />
       </section>

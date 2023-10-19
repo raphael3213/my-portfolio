@@ -1,7 +1,14 @@
 import React from "react";
 
 function Introduction() {
-  return <div>Introduction</div>;
+  return <article className="flex items-center">
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+  </article>;
 }
 
 export default Introduction;

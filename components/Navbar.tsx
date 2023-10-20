@@ -27,7 +27,7 @@ function Navbar() {
   };
   return (
     <nav className="" ref={ref}>
-      <div className="w-full flex justify-between items-center px-4 bg-black ">
+      <div className="w-full flex justify-between items-center px-4 bg-gray-900 ">
         <div className="lg:hidden">
           <Image
             height={40}
@@ -48,7 +48,7 @@ function Navbar() {
           {navLinks.map((link) => (
             <div
               key={link.name}
-              className="p-5 font-palanquin leading-normal font-semibold hover:text-purple-400"
+              className="p-5 font-palanquin leading-normal font-semibold hover:text-green-500"
             >
               <Link href={link.path}>{link.name}</Link>
             </div>
@@ -91,7 +91,7 @@ function Navbar() {
               {navLinks.map((link) => (
                 <li key={link.name} className=" p-5 group">
                   <a
-                    className="font-montserrat leading-normal  text-lg text-white font-semibold group-hover:text-purple-400"
+                    className="font-montserrat leading-normal  text-lg text-white font-semibold group-hover:bg-green-400"
                     href={link.path}
                   >
                     {link.name}

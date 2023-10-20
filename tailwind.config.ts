@@ -22,6 +22,8 @@ const config: Config = {
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        pacifico: ["Pacifico", "sans-serif"],
+        signika: ["Signika", "sans-serif"],
       },
       colors: {
         primary: "#ECEEFF",

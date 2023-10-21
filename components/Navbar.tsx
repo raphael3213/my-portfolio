@@ -17,8 +17,10 @@ function Navbar() {
     };
 
     document.addEventListener("click", handleClickOutside, true);
+    window.addEventListener("resize", () => setShowMenu(false), true);
     return () => {
       document.removeEventListener("click", handleClickOutside, true);
+      window.removeEventListener("resize", () => setShowMenu(false), true);
     };
   });
 
@@ -48,7 +50,7 @@ function Navbar() {
           {navLinks.map((link) => (
             <div
               key={link.name}
-              className="p-5 font-palanquin leading-normal font-semibold hover:text-green-500"
+              className="p-5 font-palanquin leading-normal font-semibold hover:text-emerald-500"
             >
               <Link href={link.path}>{link.name}</Link>
             </div>
@@ -87,11 +89,11 @@ function Navbar() {
       >
         <div className="shadow-lg absolute z-10 w-full ">
           {
-            <ul className="text-center bg-black cursor-pointer">
+            <ul className="text-center  bg-gray-900 cursor-pointer">
               {navLinks.map((link) => (
                 <li key={link.name} className=" p-5 group">
                   <a
-                    className="font-montserrat leading-normal  text-lg text-white font-semibold group-hover:bg-green-400"
+                    className="font-montserrat leading-normal  text-lg text-white font-semibold group-hover:text-emerald-500"
                     href={link.path}
                   >
                     {link.name}

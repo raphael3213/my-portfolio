@@ -10,7 +10,10 @@ interface TechStackCardProps {
 }
 function TechStackCard({ value }: { value: TechStackCardProps }) {
   return (
-    <Link href={value.path} className="relative h-32 w-32 opacity-75">
+    <Link
+      href={value.path}
+      className="relative h-32 w-32 max-sm:h-16 max-sm:w-16 opacity-75"
+    >
       <Image
         alt={value.name}
         src={value.img}

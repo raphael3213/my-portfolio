@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function AboutMe() {
   return (
-    <div className=" flex flex-col gap-4 min-h-screen">
+    <div className=" flex flex-col gap-4 ">
       <div className="flex flex-wrap items-center justify-center w-full gap-8">
         <div className="font-palanquin text-gray-400 flex justify-start items-start flex-col gap-4 w-[500px]">
           <h1 className="font-montserrat font-bold text-4xl text-blue-300">

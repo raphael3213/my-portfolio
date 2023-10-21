@@ -11,24 +11,37 @@ export default function Home() {
   return (
     <main className="relative bg-gray-900  ">
       <Navbar />
-      <section className="px-72 max-lg:px-20 max-sm:px-20 max-md:px-20">
+      <section
+        id="introduction"
+        className="px-72 max-lg:px-10 max-sm:px-10 max-md:px-10 max-lg:mt-24 max-sm:mt-24 max-md:mt-24"
+      >
         <Introduction />
       </section>
-      <section className="px-72 max-lg:px-20 max-sm:px-20 max-md:px-20">
+      <section
+        id="about-me"
+        className="px-72 max-lg:px-10 max-sm:px-10 max-md:px-10 max-lg:mt-24 max-sm:mt-24 max-md:mt-24"
+      >
         <AboutMe />
       </section>
-      <section className="px-72 max-lg:px-20 max-sm:px-20 max-md:px-20">
+      <section
+        id="tech-stack"
+        className="px-72 max-lg:px-10 max-sm:px-10 max-md:px-10 max-lg:mt-24 max-sm:mt-24 max-md:mt-24"
+      >
         <TechStack />
       </section>
-      <section className="px-72 max-lg:px-20 max-sm:px-20 max-md:px-20">
+      <section
+        id="projects"
+        className="px-72 max-lg:px-10 max-sm:px-10 max-md:px-10 max-lg:mt-24 max-sm:mt-24 max-md:mt-24"
+      >
         <Projects />
       </section>
-      <section className="px-48 max-sm:px-20">
+      <section
+        id="contact-me"
+        className="px-72 max-lg:px-10 max-sm:px-10 max-md:px-10 max-lg:mt-24 max-sm:mt-24 max-md:mt-24"
+      >
         <ContactMe />
       </section>
-      <section className="px-48 max-sm:px-20">
-        <Footer />
-      </section>
+      <Footer />
     </main>
   );
 }

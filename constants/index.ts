@@ -88,38 +88,40 @@ export const myTechStack = [
   },
 ];
 
-
 export const myProjects = [
   {
     name: "Carhub",
-    description: "A Responsive Front-End for a Car Rental/Shop with detailed views and images of the cars using Open Source APIs",
-    github : "",
-    techStackUsed : "Next.js, Typescript, Tailwind",
+    description:
+      "A Responsive Front-End for a Car Rental/Shop with detailed views and images of the cars using Open Source APIs",
+    github: "",
+    techStackUsed: "Next.js, Typescript, Tailwind",
     path: "",
-    imgSrc: ""
+    imgSrc: "/carhub.png",
   },
   {
     name: "Nike Frontpage",
     description: "A stylish UI for the Nike Webstore",
-    github : "",
-    techStackUsed : "Next.js, Typescript, Tailwind, Material UI",
+    github: "",
+    techStackUsed: "Next.js, Typescript, Tailwind, Material UI",
     path: "",
-    imgSrc: ""
+    imgSrc: "/nike-frontpage.png",
   },
   {
     name: "Threads",
-    description: "A Full Stack Social Media application, based on Threads, where Users can login using Oauth and post threads and reply to them.",
-    github : "",
-    techStackUsed : "Next.js, MongoDb, Typescript, Tailwind, ShadCn",
+    description:
+      "A Full Stack Social Media application, based on Threads, where Users can login using Oauth and post threads and reply to them.",
+    github: "",
+    techStackUsed: "Next.js, MongoDb, Typescript, Tailwind, ShadCn",
     path: "",
-    imgSrc: ""
+    imgSrc: "/threads.png",
   },
   {
     name: "Kafka Game Application Leaderboards",
-    description: "A Java Kafka Streams Application , that Aggreagates Stream of any Game application to generate a Live Leaderboard",
-    github : "",
-    techStackUsed : "Java, Kafka Stream, Jackson",
+    description:
+      "A Java Kafka Streams Application , that Aggreagates Stream of any Game application to generate a Live Leaderboard",
+    github: "",
+    techStackUsed: "Java, Kafka Stream, Jackson",
     path: "",
-    imgSrc: ""
-  }
-]
+    imgSrc: "",
+  },
+];

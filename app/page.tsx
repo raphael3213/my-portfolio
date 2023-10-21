@@ -20,7 +20,7 @@ export default function Home() {
       <section className="px-72 max-lg:px-20 max-sm:px-20 max-md:px-20">
         <TechStack />
       </section>
-      <section className="px-48 max-sm:px-20">
+      <section className="px-72 max-lg:px-20 max-sm:px-20 max-md:px-20">
         <Projects />
       </section>
       <section className="px-48 max-sm:px-20">

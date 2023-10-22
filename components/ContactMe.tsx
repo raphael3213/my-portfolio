@@ -13,7 +13,7 @@ function ContactMe() {
           with me
         </p>
         <Link
-          href="/"
+          href="mailto: abc@example.com"
           placeholder="Email Me"
           className="border-solid border-[1.5px] px-6 py-3 rounded-sm border-emerald-500 text-center align-middle text-emerald-500 font-palanquin font-semibold text-xl shadow-2xl"
         >

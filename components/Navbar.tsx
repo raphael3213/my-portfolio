@@ -38,7 +38,7 @@ function Navbar() {
             alt="Hamburger Icon"
           />
         </div>
-        <div className=" hidden justify-center items-center text-white  lg:flex ">
+        <div className=" hidden justify-center items-center text-gray-400  lg:flex ">
           <div>
             <Image
               height={40}
@@ -50,16 +50,19 @@ function Navbar() {
           {navLinks.map((link) => (
             <div
               key={link.name}
-              className="p-5 font-palanquin leading-normal font-semibold hover:text-emerald-500"
+              className="p-5 font-palanquin leading-normal font-semibold cursor-pointer hover:text-emerald-500"
             >
               <Link href={link.path}>{link.name}</Link>
             </div>
           ))}
         </div>
 
-        <div className="hidden justify-center items-center text-white lg:flex">
+        <div className="hidden justify-center items-center text-gray-400 lg:flex">
           {myLinks.map((link) => (
-            <div key={link.name} className="p-5 font-montserrat font-semibold">
+            <div
+              key={link.name}
+              className="p-5 font-montserrat font-semibold cursor-pointer hover:text-emerald-500"
+            >
               <Link href={link.path} key={link.name}>
                 {link.name}
               </Link>
@@ -67,7 +70,7 @@ function Navbar() {
           ))}
         </div>
 
-        <div className="flex justify-center items-center text-white p-5 lg:hidden">
+        <div className="flex justify-center items-center text-gray-400 p-5 lg:hidden">
           <Link href="/" onClick={() => setShowMenu((prevValue) => !prevValue)}>
             <Image
               height={30}
@@ -91,7 +94,7 @@ function Navbar() {
           {
             <ul className="text-center  bg-gray-900 cursor-pointer">
               {navLinks.map((link) => (
-                <li key={link.name} className=" p-5 group">
+                <li key={link.name} className=" p-5 group ">
                   <a
                     className="font-montserrat leading-normal  text-lg text-white font-semibold group-hover:text-emerald-500"
                     href={link.path}

@@ -91,6 +91,11 @@ export const myTechStack = [
     img: "/kubernetes.svg",
     path: "/",
   },
+  {
+    name: "Spark",
+    img: "/spark.svg",
+    path: "/",
+  },
 ];
 
 export const myProjects = [
@@ -98,7 +103,7 @@ export const myProjects = [
     name: "Carhub",
     description:
       "A Responsive Front-End for a Car Rental/Shop with detailed views and images of the cars using Open Source APIs",
-    github: "",
+    github: "https://github.com/raphael3213/car-rental",
     techStackUsed: "Next.js, Typescript, Tailwind",
     path: "https://car-rental-kohl.vercel.app/",
     imgSrc: "/carhub.png",
@@ -106,7 +111,7 @@ export const myProjects = [
   {
     name: "Nike Frontpage",
     description: "A stylish UI for the Nike Webstore",
-    github: "",
+    github: "https://github.com/raphael3213/nike-frontpage",
     techStackUsed: "Next.js, Typescript, Tailwind, Material UI",
     path: "https://nike-frontpage.vercel.app/",
     imgSrc: "/nike-frontpage.png",
@@ -115,7 +120,7 @@ export const myProjects = [
     name: "Threads",
     description:
       "A Full Stack Social Media application, based on Threads, where Users can login using Oauth and post threads and reply to them.",
-    github: "",
+    github: "https://github.com/raphael3213/threads",
     techStackUsed: "Next.js, MongoDb, Typescript, Tailwind, shadcn/ui",
     path: "https://threads-amber-seven.vercel.app/",
     imgSrc: "/threads.png",
@@ -124,7 +129,7 @@ export const myProjects = [
     name: "Game Leaderboards",
     description:
       "A Java Kafka Streams Application , that Aggreagates Stream of any Game application to generate a Live Leaderboard",
-    github: "",
+    github: "https://github.com/raphael3213/leaderboard-kafka-streams",
     techStackUsed: "Java, Kafka Stream, Jackson",
     path: "",
     imgSrc: "/leaderboard.png",

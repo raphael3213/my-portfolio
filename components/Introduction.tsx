@@ -20,7 +20,7 @@ function Introduction() {
       <div className="text-lg text-gray-400 font-palanquin">
         <p>
           I am a Full-Stack Developer who builds E2E solutions. Computer
-          Technologies is my passion and alway love to learn.
+          Technologies is my passion and I always love to learn new things.
         </p>
         <p>
           My journey as a developer is a story of continuous growth and endless

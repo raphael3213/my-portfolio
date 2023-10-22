@@ -44,57 +44,57 @@ export const myTechStack = [
   {
     name: "Node.js",
     img: "/nodejs.svg",
-    path: "/",
+    path: "https://nodejs.org/en",
   },
   {
     name: "React.js",
     img: "/react.svg",
-    path: "/",
+    path: "https://react.dev/",
   },
   {
     name: "Next.js",
     img: "/nextjs.svg",
-    path: "/",
+    path: "https://nextjs.org/",
   },
   {
     name: "Nest.js",
     img: "/nestjs.svg",
-    path: "/",
+    path: "https://nestjs.com/",
   },
   {
     name: "Typescript",
     img: "/typescript.svg",
-    path: "/",
+    path: "https://www.typescriptlang.org/",
   },
   {
     name: "Sails.js",
     img: "/sails.svg",
-    path: "/",
+    path: "https://sailsjs.com/",
   },
   {
     name: "Kafka",
     img: "/kafka.svg",
-    path: "/",
+    path: "https://kafka.apache.org/",
   },
   {
     name: "Postgres",
     img: "/postgres.svg",
-    path: "/",
+    path: "https://www.postgresql.org/",
   },
   {
     name: "Clickhouse",
     img: "/clickhouse.svg",
-    path: "/",
+    path: "https://clickhouse.com/",
   },
   {
     name: "Kubernetes",
     img: "/kubernetes.svg",
-    path: "/",
+    path: "https://kubernetes.io/",
   },
   {
     name: "Spark",
     img: "/spark.svg",
-    path: "/",
+    path: "https://spark.apache.org/",
   },
 ];
 

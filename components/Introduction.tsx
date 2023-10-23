@@ -14,7 +14,7 @@ function Introduction() {
         </h1>
         <h1 className="text-8xl text-blue-300 font-signika max-sm:hidden ">
           {" "}
-          I love engineering software products
+          I love engineering software products.
         </h1>
       </div>
       <div className="text-lg text-gray-400 font-palanquin">

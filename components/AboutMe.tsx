@@ -19,13 +19,13 @@ function AboutMe() {
             I also work with technologies like Kafka Streams and Spark, often
             integrating them with Delta Lake for the purpose of processing and
             storing event-driven data. I envision myself evolving into the role
-            of a Solution Architect. To prepare for this future career path, I
+            of a Software Architect. To prepare for this future career path, I
             actively engage in every facet of the software development process.
           </p>
           <p className="text-xl">
             When I&apos;m not immersed in code, you&apos;ll likely catch me at
-            the gym, tackling LeetCode challenges, or embarking on epic
-            adventures in the realm of MMORPGs.
+            the gym, writing tech blogs, tackling LeetCode challenges, or
+            embarking on epic adventures in the realm of MMORPGs.
           </p>
         </div>
         <div className=" flex justify-center items-center">

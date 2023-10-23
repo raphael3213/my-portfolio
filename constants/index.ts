@@ -126,7 +126,7 @@ export const myProjects = [
     imgSrc: "/threads.png",
   },
   {
-    name: "Game Leaderboards",
+    name: "Leaderboard",
     description:
       "A Java Kafka Streams Application , that Aggreagates Stream of any Game application to generate a Live Leaderboard",
     github: "https://github.com/raphael3213/leaderboard-kafka-streams",

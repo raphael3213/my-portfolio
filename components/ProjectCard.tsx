@@ -40,7 +40,13 @@ function ProjectCard({ value }: { value: ProjectCardProps }) {
         </div>
       </div>
 
-      <Image src={value.imgSrc} height={300} width={350} alt={value.name} />
+      <Image
+        src={value.imgSrc}
+        height={300}
+        width={350}
+        alt={value.name}
+        className="rounded-lg border-gray-900 border-2"
+      />
 
       <div className="flex-col flex gap-1 items-center justify-center text-xl font-palanquin text-gray-400">
         <p className="text-center">{value.description}</p>

@@ -28,9 +28,9 @@ function Navbar() {
     showMenu ? setShowMenu(false) : setShowMenu(true);
   };
   return (
-    <nav className="" ref={ref}>
+    <nav className="p-2" ref={ref}>
       <div className="w-full flex justify-between items-center px-4 bg-gray-900 ">
-        <div className="lg:hidden">
+        <div className="xl:hidden">
           <Image
             height={40}
             width={40}
@@ -38,7 +38,7 @@ function Navbar() {
             alt="Hamburger Icon"
           />
         </div>
-        <div className=" hidden justify-center items-center text-gray-400  lg:flex ">
+        <div className=" hidden justify-center items-center text-gray-400  xl:flex ">
           <div>
             <Image
               height={40}
@@ -57,7 +57,7 @@ function Navbar() {
           ))}
         </div>
 
-        <div className="hidden justify-center items-center text-gray-400 lg:flex">
+        <div className="hidden justify-center items-center text-gray-400 xl:flex gap-2">
           {myLinks.map((link) => (
             <div
               key={link.name}
@@ -68,9 +68,16 @@ function Navbar() {
               </Link>
             </div>
           ))}
+          <Link
+            href="mailto: raphael3213@gmail.com"
+            placeholder="Resume"
+            className="border-solid border-[1.5px] px-4 py-2 rounded-sm hover:border-emerald-700 hover:text-emerald-700 border-emerald-500  text-emerald-500 font-palanquin font-semibold text-lg mb-1"
+          >
+            Resume
+          </Link>
         </div>
 
-        <div className="flex justify-center items-center text-gray-400 p-5 lg:hidden">
+        <div className="flex justify-center items-center text-gray-400 p-5 xl:hidden">
           <Link href="/" onClick={() => setShowMenu((prevValue) => !prevValue)}>
             <Image
               height={30}

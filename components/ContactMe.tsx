@@ -13,9 +13,9 @@ function ContactMe() {
           with me
         </p>
         <Link
-          href="mailto: abc@example.com"
+          href="mailto: raphael3213@gmail.com"
           placeholder="Email Me"
-          className="border-solid border-[1.5px] px-6 py-3 rounded-sm border-emerald-500 text-center align-middle text-emerald-500 font-palanquin font-semibold text-xl shadow-2xl"
+          className="border-solid border-[1.5px] px-6 py-3 rounded-sm hover:border-emerald-700 hover:text-emerald-700 border-emerald-500 text-center align-middle text-emerald-500 font-palanquin font-semibold text-xl shadow-2xl"
         >
           Email Me
         </Link>

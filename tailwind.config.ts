@@ -42,6 +42,20 @@ const config: Config = {
       screens: {
         wide: "1440px",
       },
+      animation: {
+        wiggle: "wiggle 1s ease-in-out infinite",
+        lift: "lift 0.5s linear forwards",
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-1deg)" },
+          "50%": { transform: "rotate(1deg)" },
+        },
+        lift: {
+          "0%": { transform: "translate(0 ,0)" },
+          "100%": { transform: "translate(-10px,-10px)" },
+        },
+      },
     },
   },
   plugins: [],

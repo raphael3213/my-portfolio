@@ -112,7 +112,7 @@ function Navbar() {
               ))}
               <li className="p-5">
                 <Link
-                  href="https://drive.google.com/file/d/1bXiGmagD9J4xnpmMa0yHqwXZoj1tuz9d/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1GXc4o7SyCH35HkztOMdTIHJXFmoIzCTJ/view?usp=sharing"
                   placeholder="Resume"
                   className="border-solid border-[1.5px] px-4 py-2 rounded-sm hover:border-emerald-700 hover:text-emerald-700 border-emerald-500  text-emerald-500 font-palanquin font-semibold text-lg mb-1"
                 >

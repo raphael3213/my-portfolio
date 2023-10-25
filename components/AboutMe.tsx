@@ -28,13 +28,13 @@ function AboutMe() {
             embarking on epic adventures in the realm of MMORPGs.
           </p>
         </div>
-        <div className=" flex justify-center items-center">
+        <div className=" flex justify-center items-center p-5">
           <Image
-            src="/me.png"
+            src="/me.jpeg"
             alt="My Photo"
-            height={340}
+            height={300}
             width={340}
-            className="object-cover rounded-3xl"
+            className="rounded-3xl"
           />
         </div>
       </div>

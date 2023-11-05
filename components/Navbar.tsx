@@ -63,13 +63,13 @@ function Navbar() {
               key={link.name}
               className="p-5 font-montserrat font-semibold cursor-pointer hover:text-emerald-500"
             >
-              <Link href={link.path} key={link.name}>
+              <Link href={link.path} key={link.name} prefetch={false}>
                 {link.name}
               </Link>
             </div>
           ))}
           <Link
-            href="https://drive.google.com/file/d/1GXc4o7SyCH35HkztOMdTIHJXFmoIzCTJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1sV0GYY7SwNzVyzYsTizrnvyHxP3K_wnQ/view?usp=sharing"
             placeholder="Resume"
             className="border-solid border-[1.5px] px-4 py-2 rounded-sm hover:border-emerald-700 hover:text-emerald-700 border-emerald-500  text-emerald-500 font-palanquin font-semibold text-lg mb-1"
           >
@@ -78,7 +78,11 @@ function Navbar() {
         </div>
 
         <div className="flex justify-center items-center text-gray-400 p-5 xl:hidden">
-          <Link href="/" onClick={() => setShowMenu((prevValue) => !prevValue)}>
+          <Link
+            href="/"
+            onClick={() => setShowMenu((prevValue) => !prevValue)}
+            prefetch={false}
+          >
             <Image
               height={30}
               width={30}
@@ -112,7 +116,7 @@ function Navbar() {
               ))}
               <li className="p-5">
                 <Link
-                  href="https://drive.google.com/file/d/1GXc4o7SyCH35HkztOMdTIHJXFmoIzCTJ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1sV0GYY7SwNzVyzYsTizrnvyHxP3K_wnQ/view?usp=sharing"
                   placeholder="Resume"
                   className="border-solid border-[1.5px] px-4 py-2 rounded-sm hover:border-emerald-700 hover:text-emerald-700 border-emerald-500  text-emerald-500 font-palanquin font-semibold text-lg mb-1"
                 >

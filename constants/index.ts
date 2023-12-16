@@ -134,4 +134,13 @@ export const myProjects = [
     path: "",
     imgSrc: "/leaderboard.png",
   },
+  {
+    name: "Wallet Application",
+    description:
+      "A Simple NextJS 14 wallet and transactions application to test out server actions to its limits, powered by localStorage and React Query.",
+    github: "https://github.com/raphael3213/nextjs-wallet",
+    techStackUsed: "Next.js, Prisma , Zod, React Query",
+    path: "https://nextjs-wallet-h5cx.vercel.app/",
+    imgSrc: "/wallet.png",
+  },
 ];

@@ -40,61 +40,77 @@ export const myLinks = [
   },
 ];
 
-export const myTechStack = [
+export const myLanguages = [
   {
     name: "Node.js",
     img: "/nodejs.svg",
-    path: "https://nodejs.org/en",
+  },
+  {
+    name: "Java 17",
+    img: "/java.svg",
   },
   {
     name: "React.js",
     img: "/react.svg",
-    path: "https://react.dev/",
+  },
+
+  {
+    name: "Typescript",
+    img: "/typescript.svg",
+  },
+];
+
+export const myFrameWorks = [
+  {
+    name: "Spring Boot",
+    img: "/springboot.svg",
   },
   {
     name: "Next.js",
     img: "/nextjs.svg",
-    path: "https://nextjs.org/",
   },
   {
     name: "Nest.js",
     img: "/nestjs.svg",
-    path: "https://nestjs.com/",
-  },
-  {
-    name: "Typescript",
-    img: "/typescript.svg",
-    path: "https://www.typescriptlang.org/",
   },
   {
     name: "Sails.js",
     img: "/sails.svg",
-    path: "https://sailsjs.com/",
   },
+  {
+    name: "Mockito",
+    img: "/mockito.png",
+  },
+  {
+    name: "Jest",
+    img: "/jest.svg",
+  },
+];
+
+export const myTechStack = [
   {
     name: "Kafka",
     img: "/kafka.svg",
-    path: "https://kafka.apache.org/",
   },
   {
     name: "Postgres",
     img: "/postgres.svg",
-    path: "https://www.postgresql.org/",
   },
   {
     name: "Clickhouse",
     img: "/clickhouse.svg",
-    path: "https://clickhouse.com/",
   },
   {
     name: "Kubernetes",
     img: "/kubernetes.svg",
-    path: "https://kubernetes.io/",
+  },
+  {
+    name: "Docker",
+    img: "/docker.svg",
   },
   {
     name: "Spark",
     img: "/spark.svg",
-    path: "https://spark.apache.org/",
   },
 ];
 
@@ -107,6 +123,14 @@ export const myProjects = [
     techStackUsed: "Next.js, Typescript, Tailwind",
     path: "https://car-rental-kohl.vercel.app/",
     imgSrc: "/carhub.png",
+  },
+  {
+    name: "Cats Profile Backend",
+    description:
+      "A dockerized NestJS application, with authentication and route guards, allowing users to login/signup, create profiles for their cats and upload photos and retrive them.",
+    github: "https://github.com/raphael3213/cats-backend-nestjs",
+    techStackUsed: "NestJS, Jest, Postgres, TypeORM, Docker",
+    imgSrc: "/wallet.png",
   },
   {
     name: "Nike Frontpage",
@@ -131,13 +155,12 @@ export const myProjects = [
       "A Java Kafka Streams Application , that Aggreagates Stream of any Game application to generate a Live Leaderboard",
     github: "https://github.com/raphael3213/leaderboard-kafka-streams",
     techStackUsed: "Java, Kafka Stream, Jackson",
-    path: "",
     imgSrc: "/leaderboard.png",
   },
   {
     name: "Wallet Application",
     description:
-      "A Simple NextJS 14 wallet and transactions application to test out server actions to its limits, powered by localStorage and React Query.",
+      "A NextJS 14 wallet and transactions application to test out server actions to its limits, powered by localStorage and React Query.",
     github: "https://github.com/raphael3213/nextjs-wallet",
     techStackUsed: "Next.js, Prisma , Zod, React Query",
     path: "https://nextjs-wallet-h5cx.vercel.app/",

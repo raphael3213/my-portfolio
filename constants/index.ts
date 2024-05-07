@@ -127,7 +127,7 @@ export const myProjects = [
   {
     name: "Cats Profile Backend",
     description:
-      "A dockerized NestJS application, with authentication and route guards, allowing users to login/signup, create profiles for their cats and upload photos and retrive them.",
+      "A dockerized and unit tested NestJS application, with authentication and route guards, allowing users to login/signup, create profiles for their cats and upload photos and retrive them.",
     github: "https://github.com/raphael3213/cats-backend-nestjs",
     techStackUsed: "NestJS, Jest, Postgres, TypeORM, Docker",
     imgSrc: "/wallet.png",

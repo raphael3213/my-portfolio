@@ -69,7 +69,7 @@ function Navbar() {
             </div>
           ))}
           <Link
-            href="https://drive.google.com/file/d/16UHdfXgCSPwnvh8FrmMSa5o6KHi_8Kmr/view?usp=sharing"
+            href="https://drive.google.com/file/d/1kNY38GZZ1kIAZ8jcTofI3FoQCFA0l6Q3/view?usp=sharing"
             placeholder="Resume"
             className="border-solid border-[1.5px] px-4 py-2 rounded-sm hover:border-emerald-700 hover:text-emerald-700 border-emerald-500  text-emerald-500 font-palanquin font-semibold text-lg mb-1"
           >
@@ -116,7 +116,7 @@ function Navbar() {
               ))}
               <li className="p-5">
                 <Link
-                  href="https://drive.google.com/file/d/16UHdfXgCSPwnvh8FrmMSa5o6KHi_8Kmr/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1kNY38GZZ1kIAZ8jcTofI3FoQCFA0l6Q3/view?usp=sharing"
                   placeholder="Resume"
                   className="border-solid border-[1.5px] px-4 py-2 rounded-sm hover:border-emerald-700 hover:text-emerald-700 border-emerald-500  text-emerald-500 font-palanquin font-semibold text-lg mb-1"
                 >
